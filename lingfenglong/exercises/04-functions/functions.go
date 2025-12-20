@@ -1,8 +1,10 @@
 package functions
 
 // Calc 返回两个整数的和与差
-func Calc(a, b int) (int, int) {
-	return a + b, a - b
+func Calc(a, b int) (sum int, diff int) {
+	sum = a + b
+	diff = a - b
+	return
 }
 
 // Swap 交换两个字符串
