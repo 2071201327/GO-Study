@@ -1,0 +1,6 @@
+# 隐藏所有其他文件夹
+*
+!zx-exercises/
+!zx-exercises/**/*
+!.gitignore
+!README.md
