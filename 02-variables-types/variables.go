@@ -1,17 +1,22 @@
 package variables
 
 func GetName() string {
-	return "Gopher"
+	var name = "Gopher"
+	return name
 }
 
 func GetAge() int {
-	return 10
+	var age = 10
+	return age
 }
 
 func IsCool() bool {
-	return true
+	cool := true
+	return cool
 }
 
 func GetZeroValues() (int, string) {
-	return 0, ""
+	var zeroValueInt int
+	var zeroValueString string
+	return zeroValueInt, zeroValueString
 }
